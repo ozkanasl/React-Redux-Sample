@@ -1,8 +1,24 @@
-# Firstly install json server package for serving json api and install it
-# 1.npm install -g json-server
-# 2.cd src/api/
-# 3.json-server --watch sample.json
+# React - Redux Sample App
 
-# 4. Then;
-# 1.1.npm install
-# 1.2.npm start
+# Built With
+* [React](https://github.com/facebook/react)
+* [Redux](https://github.com/reduxjs/redux)
+* [Redux-Saga](https://github.com/redux-saga/redux-saga)
+* [Semantic-UI](https://github.com/Semantic-Org/Semantic-UI-React)
+* [Axios](https://github.com/axios/axios)
+
+
+## Usage
+*Firstly install json server package for serving json api
+   ```
+   npm install -g json-server
+   cd src/api/
+   json-server --watch sample.json
+   ```
+
+ Then;
+  ```
+  npm install
+  npm start
+  ```
+  open <http://localhost:8000>
