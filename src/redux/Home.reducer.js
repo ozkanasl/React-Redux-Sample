@@ -25,6 +25,7 @@ const homeReducer = (state : Object = initialState, action : Object) => {
     case HOME.GET_MOVIES_REJECTED:
       return {
         ...state,
+        ProgramsLoading: false,
         fetching: false
       };
     default:

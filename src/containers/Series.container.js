@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { Header, Segment, Loader, Image, Card, Container, CardContent } from "semantic-ui-react";
+import { Header, Segment, Loader, Image, Card, Container, CardContent, Message } from "semantic-ui-react";
 import _ from "lodash";
 
 import * as homeActions from "../redux/Home.actions";
@@ -20,10 +20,12 @@ class Series extends Component {
 
   render() {
 
-    const { ProgramsLoading, programs } = this.props.state;
-    console.log(programs);
+    const { ProgramsLoading, programs, fetching } = this.props.state;
     if (ProgramsLoading) {
       return <div><Loader style={{ display: "block" }} content="Series loading" /></div>;
+    }
+    if (!fetching) {
+      return <Message color="red">ERROR! PLEASE CHECK APİ</Message>;
     }
     const sortedSeries = programs && _.sortBy(programs.SeriesFilteredData, "title");
     return (
