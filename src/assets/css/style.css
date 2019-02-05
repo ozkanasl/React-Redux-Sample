@@ -1,0 +1,72 @@
+.nav-header-menu{
+  padding: 20px 0;
+  background-color: #0084ff!important;
+  margin-bottom: 0px!important;
+  border-radius: 0px!important;
+}
+.btn-login{
+  background-color: transparent!important;
+  color: #fff!important;
+  margin: 0 20px!important;
+}
+.btn-free-tutorial{
+  color: #fff!important;
+  background-color: #3d3f3e!important;
+}
+.ui.loader{
+  top: 20%!important;
+}
+.navbar-header{
+  color: #fff!important;
+  fontr-size:30px!important;
+}
+.mobile-navbar{
+  margin: 0px!important;
+  background: #0084ff!important;
+}
+.demo-title-container{
+  margin: 0px!important;
+  background-color: #414141!important;
+
+  border-radius: 0px!important;
+}
+.demo-title{
+  color: #fff!important;
+  font-size: 2em!important;
+}
+.ui.card, .ui.cards>.card{
+  width: 149px!important;
+}
+.footer-list a{
+  color:#9c9c9c!important;
+}
+.footer-list a:after{
+  content: '';
+  border-right: 1px solid #9c9c9c;
+  padding-right: 15px;
+  display: inline!important;
+  visibility: initial!important;
+}
+.footer-list a:last-child:after{
+  content: '';
+  visibility: hidden!important;
+}
+.footer-rightside-images{
+  display: flex!important;
+  justify-content: flex-end;
+}
+.footer-leftside-images a{
+  margin-right: 15px;
+}
+.upper-container{
+  margin-bottom: 60px!important;
+}
+.home-container{
+  display:flex;
+}
+.home-container a{
+  margin-right:15px;  
+}
+.home-container p{
+  color:#000;  
+}
