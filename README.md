@@ -1,5 +1,5 @@
 # React - Redux Sample App
-
+Movie And Series fetching from json
 # Built With
 * [React](https://github.com/facebook/react)
 * [Redux](https://github.com/reduxjs/redux)
